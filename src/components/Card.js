@@ -7,7 +7,7 @@ const Card = ({name,email,id,contact}) => {
             {/* <h1>Robo friends</h1> */}
             <img alt="robot"  src={`https://robohash.org/${id}?100x120`} />
             <div>
-                <h2>Name :{name}</h2>
+                <h2>Name : {name}</h2>
                 <p>Email Id : {email}</p>
                 <p>{contact}</p>
             </div>
