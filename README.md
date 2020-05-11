@@ -70,3 +70,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 =======
 # rebofriends
 >>>>>>> af8d84b32c50c16f3843218937f5eb7eae2ca606
+
+
+## npm install --save gh-pages
+
+save to git pages
+  

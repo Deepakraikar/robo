@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 const Cardlist =({robots}) => {
+  console.log(robots);
   // if(true)  {
   //   throw new Error('NOOOOO');
   // }
@@ -12,15 +13,14 @@ const Cardlist =({robots}) => {
                 return (
                         <Card 
                         key={i} 
-                        id={robots[i].id}
-                        name={robots[i].name}
-                        email={robots[i].username} 
-                        contact={robots[i].contact} 
-                        phone = {robots[i].phone} 
-                        website = {robots[i].website}
-                       // address = {robots[i].}
-                          
-                        />
+                        id={user.id}
+                        name={user.name}
+                        email={user.username} 
+                        contact={user.contact} 
+                        phone = {user.phone} 
+                        website = {user.website}
+                        street = {user.address.street}
+                      />
                 );
         })
       }
