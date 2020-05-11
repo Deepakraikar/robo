@@ -10,6 +10,7 @@ const Card = ({name,email,id,contact,street,phone,website,address}) => {
                 <h3>Name : {name}</h3>
                 <p> Email : {email}</p>
                 <p> phone : {phone}</p>
+                <p> web : {website}</p>
                 <p> street : {street} </p>
             </div>
         </div>
