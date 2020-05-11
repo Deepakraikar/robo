@@ -16,7 +16,6 @@ const Cardlist =({robots}) => {
                         id={user.id}
                         name={user.name}
                         email={user.username} 
-                        contact={user.contact} 
                         phone = {user.phone} 
                         website = {user.website}
                         street = {user.address.street}
